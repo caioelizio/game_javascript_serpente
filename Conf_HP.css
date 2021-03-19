@@ -1,0 +1,314 @@
+BODY {
+	BACKGROUND: #000000; 
+	MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #00bfff; 
+	SCROLLBAR-SHADOW-COLOR: #1e90ab; 
+	COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #ffffff; 
+	SCROLLBAR-TRACK-COLOR: #444444; 
+	FONT-FAMILY: 'Verdana', 'Arial', 'Times New Roman'; 
+	SCROLLBAR-DARKSHADOW-COLOR: #6495ab; 
+	SCROLLBAR-BASE-COLOR: #000090
+}
+
+P {
+	MARGIN: 0px; HEIGHT: 0px
+}
+
+DD {
+	MARGIN: 0px; HEIGHT: 0px
+}
+
+DIV {
+	MARGIN: 0px; HEIGHT: 0px
+}
+
+FORM {
+	MARGIN: 0px; HEIGHT: 0px
+}
+
+DIV {
+	FONT-SIZE: 10pt
+}
+
+TD {
+	FONT-SIZE: 10pt
+}
+
+A:link {
+	CURSOR: hand; 
+	COLOR: #6060f0; 
+	TEXT-DECORATION: none
+}
+
+A:visited {
+	COLOR: #6666f6; 
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	CURSOR: hand; 
+	COLOR: #6060f0; 
+	TEXT-DECORATION: underline
+}
+
+A:active {
+	COLOR: #a000a0; 
+	TEXT-DECORATION: underline
+}
+
+UL {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+OL {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+LI.Sub {
+	MARGIN-TOP: 0px; 
+	LIST-STYLE-IMAGE: url(images/spinb.gif); 
+	MARGIN-BOTTOM: 0px; 
+	VERTICAL-ALIGN: super
+}
+
+LI {
+	MARGIN-TOP: 0px; 
+	LIST-STYLE-IMAGE: url(images/spinb.gif); 
+	MARGIN-BOTTOM: 0px; 
+	VERTICAL-ALIGN: super
+}
+
+UL.Sub {
+	MARGIN: 0em 0em 0em 1em
+}
+
+LI.Sub {
+	LIST-STYLE-IMAGE: url(images/spins.gif); 
+	MARGIN: 0em; 
+	VERTICAL-ALIGN: super
+}
+
+BLOCKQUOTE {
+	MARGIN: 0px 0px 0px 10px
+}
+
+H1 {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+H2 {
+	MARGIN-TOP: 0px;
+	MARGIN-BOTTOM: 0px
+}
+
+H3 {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+H4 {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+H5 {
+	MARGIN-TOP: 0px; 
+	MARGIN-BOTTOM: 0px
+}
+
+H1 {
+	FONT-SIZE: 16pt
+}
+
+H2 {
+	FONT-SIZE: 14pt
+}
+
+H3 {
+	FONT-SIZE: 12pt; 
+	COLOR: #c0c0f0
+}
+
+H4 {
+	FONT-SIZE: 10pt; 
+	COLOR: #c0f0c0
+}
+
+.Menu {
+	BORDER-RIGHT: 1px ridge; 
+	BORDER-TOP: 2px inset; 
+	BORDER-LEFT: 1px ridge; 
+	CURSOR: hand; 
+	BORDER-BOTTOM: 2px outset
+}
+
+.SubMenu {
+	BORDER-RIGHT: 0px ridge; 
+	PADDING-RIGHT: 20px; 
+	BORDER-TOP: 2px ridge; 
+	MARGIN-TOP: 23px; 
+	DISPLAY: none; 
+	PADDING-LEFT: 20px; 
+	Z-INDEX: 5; 
+	BACKGROUND: url(/arquivos/Menu1.Jpg) #c0c0c0 fixed no-repeat; 
+	PADDING-BOTTOM: 4px; 
+	FONT: bold 10pt Arial; 
+	BORDER-LEFT: 2px ridge; 
+	WIDTH: 100px; 
+	CURSOR: hand; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: 2px ridge; 
+	POSITION: absolute; 
+	TOP: 0px
+}
+
+.Hidden {
+	DISPLAY: none
+}
+
+.Inibido {
+	COLOR: #505050; 
+	TEXT-DECORATION: line-through
+}
+
+.clsMenu {
+	BORDER-RIGHT: #d3d3d3 2px ridge; 
+	PADDING-RIGHT: 1px; 
+	BORDER-TOP: #ffffff 2px ridge; 
+	PADDING-LEFT: 5px; 
+	FONT-SIZE: 8pt; 
+	Z-INDEX: 3; 
+	VISIBILITY: hidden; 
+	PADDING-BOTTOM: 1px; 
+	BORDER-LEFT: #ffffff 2px ridge; 
+	WIDTH: 180px; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: #d3d3d3 2px ridge; 
+	FONT-FAMILY: verdana; 
+	POSITION: absolute; 
+	BACKGROUND-COLOR: #bababa
+}
+
+.InTitle {
+	FILTER: glow(color=#6633FF,strength=5)
+            dropshadow(color=#483D8B,OffX=3,OffY=3,Positive=2); 
+	FONT: italic 24pt bold 'Comic Sans MS', 'Lucida Handwriting', Verdana; 
+	CURSOR: default; 
+	COLOR: #c0c0c0; 
+	POSITION: relative; 
+	TEXT-ALIGN: center
+}
+
+.Cod {
+	FONT: 8pt 'Courier New'; 
+	COLOR: #dddddd
+}
+
+.Com {
+	FONT: 8pt 'Courier New'; 
+	COLOR: #60f060
+}
+
+.KW {
+	FONT: 8pt 'Courier New'; 
+	COLOR: #6060ff
+}
+
+TD.clsBody {
+	BORDER-RIGHT: #99ccff 3px outset; 
+	PADDING-RIGHT: 1em; 
+	PADDING-LEFT: 1em; 
+	PADDING-BOTTOM: 1em; 
+	BORDER-LEFT: #99ccff 3px outset; 
+	BORDER-BOTTOM: #99ccff 3px inset; 
+	BACKGROUND-COLOR: #6699cc
+}
+
+TD.clsBodySpace {
+	BORDER-RIGHT: #99ccff 3px outset; 
+	FONT-SIZE: 25%; 
+	BORDER-LEFT: #99ccff 3px outset; 
+	BACKGROUND-COLOR: #6699cc
+}
+
+TD.clsTab {
+	BORDER-RIGHT: #808080 2px outset; 
+	BORDER-TOP: #c0c0c0 2px outset; 
+	BORDER-LEFT: #c0c0c0 2px outset; 
+	CURSOR: hand; 
+	COLOR: #ffffff; 
+	BORDER-BOTTOM: #808080 2px inset; 
+	BACKGROUND-COLOR: #003366
+}
+
+TD.clsTab A {
+	FONT-SIZE: 95%; 
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTab A:active {
+	FONT-SIZE: 95%; 
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTab A:link {
+	FONT-SIZE: 95%; 
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTab A:hover {
+	COLOR: #f0c0c0
+}
+
+TD.clsTabSelected {
+	BORDER-RIGHT: #99ccff 3px outset; 
+	BORDER-TOP: #99ccff 3px outset; 
+	BORDER-LEFT: #99ccff 3px outset; 
+	COLOR: #ccffcc; 
+	BACKGROUND-COLOR: #6699cc
+}
+
+TD.clsTabSelected A {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 95%; 
+	COLOR: #ccffcc; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTabSelected A:hover {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 95%; 
+	COLOR: #ccffcc; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTabSelected A:active {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 95%; 
+	COLOR: #ccffcc; 
+	TEXT-DECORATION: none
+}
+
+TD.clsTabSelected A:link {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 95%; 
+	COLOR: #ccffcc; 
+	TEXT-DECORATION: none
+}
+
+.CodAsp {
+	FONT-WEIGHT: bold; 
+	COLOR: #000000; 
+	BACKGROUND-COLOR: yellow
+}
+
+.ComAsp {
+	FONT: 8pt bold 'Courier New'; 
+	COLOR: #ccffcc
+}
